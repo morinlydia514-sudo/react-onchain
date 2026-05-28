@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+deployment-manifest.json
+deployment-manifest-dry-run.json
+test-app/
+.claude
+.test-sw-output/
+local-test-apps/
+
+# Environment variables (may contain sensitive keys)
+.env*
+!.env.example
